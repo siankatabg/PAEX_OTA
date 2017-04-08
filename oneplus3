@@ -1,8 +1,8 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
 <Stable>
 <oneplus3>
-<Filename>AospExtended-v4.0B-20170329-1915-siankatabg</Filename>
-<BuildUrl id="build" title="Download ROM">https://www.androidfilehost.com/?fid=817550096634758264</BuildUrl>
+<Filename>AospExtended-v4.0-20170408-1009-siankatabg</Filename>
+<BuildUrl id="build" title="Download ROM">https://www.androidfilehost.com/?fid=673368273298945867</BuildUrl>
 <XDAUrl id="xda" title="XDA" description="Forum">https://forum.xda-developers.com/oneplus-3/development/rom-phoenix-aospextended-rom-v3-2-t3563765</XDAUrl>
 <GappsUrl id="gapps" title="GApps" description="Android 7.1">http://downloads.aospextended.com/gapps/</GappsUrl>
 </oneplus3>
