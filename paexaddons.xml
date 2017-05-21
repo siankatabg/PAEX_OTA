@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hash>
+    <addons>
+        <addon>
+            <id>1</id> <!-- Use integers only, make them unique -->
+            <name>SuperSU</name> <!-- The name, simples -->
+            <description>SuperSU v2.79 Flashable zip. IMPORTANT: DOWNLOAD ONLY ONE ROOT ZIP</description> <!-- You can use markdown here if you want -->
+            <published-at>2016-12-15</published-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>5452595</size> <!-- filesize in bytes -->
+            <download-link>https://s3-us-west-2.amazonaws.com/supersu/download/zip/SuperSU-v2.79-201612051815.zip</download-link>
+        </addon>
+        <addon>
+            <id>2</id> <!-- Use integers only, make them unique -->
+            <name>Magisk</name> <!-- The name, simples -->
+            <description>MagiskSu v12.0 flashable zip. IMPORTANT: DOWNLOAD ONLY ONE ROOT ZIP</description> <!-- You can use markdown here if you want -->
+            <published-at>2017-03-30</published-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>6501171</size> <!-- filesize in bytes -->
+            <download-link>http://tiny.cc/latestmagisk</download-link>
+        </addon>
+    </addons>
+</hash>
