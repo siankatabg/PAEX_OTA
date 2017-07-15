@@ -1,38 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PhoenixAospExtended-ROM</RomName>
-<VersionName>PhoenixAospExtended-v4.2-20170523-2130-siankatabg</VersionName>
-<VersionNumber type="integer">20170523</VersionNumber>
-<DirectUrl><![CDATA[https://forum.xda-developers.com/devdb/project/dl/?id=24858&task=get]]></DirectUrl>
+<VersionName>PhoenixAospExtended-v4.4-oneplus3-20170715-2214-siankatabg</VersionName>
+<VersionNumber type="integer">20170715</VersionNumber>
+<DirectUrl><![CDATA[https://forum.xda-developers.com/devdb/project/dl/?id=25649&task=get]]></DirectUrl>
 <HttpUrl><![CDATA[http://phoenixaex.esy.es]]></HttpUrl>
 <Android>7.1.2</Android>
-<CheckMD5>467b4c9bd384797c786adea034e9ba21</CheckMD5>
-<FileSize type="integer">675333150</FileSize>
+<CheckMD5>0817479aa279d149b0dde39b7792b7a6</CheckMD5>
+<FileSize type="integer">797605182 </FileSize>
 <Developer><![CDATA[siankatabg]]></Developer>
 <WebsiteURL><![CDATA[https://forum.xda-developers.com/oneplus-3/development/rom-phoenix-aospextended-rom-v3-2-t3563765]]></WebsiteURL>
 <Changelog>
 <![CDATA[
-# V4.2 **[23.05.17]**
+# V4.4 **[15.07.17]**
 
-### Note: OB16 for OP3 and OB7 for OP3T firmware/modem are needed for this build!
+### Note: ROM WILL FLASH THE NEEDED FIRMWARE FOR YOUR DEVICE!
+### Note: For AEX 4.4 Changelog see the XDA thread!
 
 
-* All sources up to date
-* Revert: Remove all remaining premium Qualcomm location blobs (sultanxda)
-* Revert: Disable premium location services (sultanxda)
-* Revert: Remove CNE and DPM (sultanxda)
-* Revert: Use Google's fused location provider (sultanxda)
-* Reverted some upstream AEX changes (Like the circle icons remove and different inplementation of signature spoofing)
-* Kernel updated to Render R6T4
-* Blobs updated to OB16/OB7 also regenerated for the latest GPS changes (Use the needed firmware/modem for your device)
-* Substratum app updated to the latest one
-* Fixed Alert slider issue when changing from "vibrate" to "all notifications" in some situations
-* OTA is fixed now and should work fine
-* Change OWM API key for this rom only
-* Don't override GPS settings set on a per-carrier basis (sultanxda)
-* rootdir: Update fs tune from marlin (laos)
-* init.qcom.rc : Add time_daemon in init.qcom.rc (laos)
-* I'm absolutely sure that I forget something, but ¯\_(ツ)_/¯ I'll add it later
+[*]AEX updated to 4.4 android 7.1.2_r24 /see AEX changelog for the release/
+[*]Kernel updated to Render kernel R7T16 with few additionals from me /see github/
+[*]Default I/O scheduler set to "Maple" - After vote in the telegram group
+[*]Apps updated /Google Camera, Chrome, Substratum/
+[*]OnePlus Camera and Gallery updated to OB19, renamed and with new icons to be easily recognisible /Camera-O² and Gallery-O²/
+[*]Fixed RAW capturing in OOS Camera
+[*]Updates from OB19
+[*]All blobs updated to OB19/OB10
+[*]Device specific firmware flash - You don't need to search for the right firmware anymore! (This will flash the needed firmware depending on your variant (3/3T) during the ROM installation) /Credits to AOSPA/
+[*]Bootanimation optimizations
+[*]New custom Bootanimation /Credits to sLimba a.k.a. rakpere/
+[*]Prefer VOLTE if avalible
+[*]High Brightness Mode Quick tile
+[*]Schedutil tweaked for better performance
+[*]Removed Fastdormancy
+[*]Various other minor cleanups and device specific optimizations
+[*]Changes picked from LAOS:
+[*]op3: Restore original CAF gps configuration
+[*]op3: Abandon TARGET_UNIFIED_DEVICE flag
+[*]op3: Allow vendor init to override props
+[*]op3: Update ramdisk to LA.UM.5.5.r1-05100-8x96.0
+[*]op3: Update power profile from latest OOS
+[*]op3: Automatically set bluetooth name based on rf version
+[*]op3: Sync bluetooth configuration with CAF
+[*]op3: Define ril-daemon normally
+[*]op3: sepolicy: Remove old and duplicate permissions
+[*]Revert "op3: sepolicy: Fix rmt_storage and rfs_access policies"
+[*]op3: Add system GID to rmt_storage
+[*]op3: rmt_storage should have wakelock GID
+[*]op3: Drop NET_RAW and NET_ADMIN from qti
+[*]op3: Grant netmgrd proper unix perms
+[*]op3: Update qti telephony extension from MIUI 7.6.5 dev
+[*]op3: Convert rf_version to integer before comparison
+[*]ipacm: fix the heap-use-after-free issue on bootup
+[*]IPACM: fix the security issue in ConntrackClient
+[*]IPACM: fix security issue in querying if index
+[*]Re-enable delete_aiding_data for user build
+[*]op3: Adjust lmk parameters
+[*]op3: Remove BCL hotplug disable/enable from init
+[*]op3: Update ril header for 7.1.2
 ]]>
 </Changelog>
 <AddonCount>2</AddonCount>
